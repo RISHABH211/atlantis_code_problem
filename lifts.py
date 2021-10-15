@@ -14,7 +14,7 @@ def lifts():
 
     each_lift_floor = []
     each_lift_position = []
-    direction = ["D", "U", ""]
+    direction = ["D", "U", ""]  # The three possible direction of motion for the lift : "D" for  Down , "U" for Up, "" for Idle.
     lift_position = []
 
     for i in range(5):
